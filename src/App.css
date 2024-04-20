@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+.hero {
+  background-image: url("/public/img/kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg");
+  background-size: cover;
+  min-height: 600px;
+}
+
+.model-btn {
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 1px 1px black;
+  position: absolute;
+  bottom: 100px;
+  right: 70px;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  color: black;
+}
+
+.SignUp {
+  margin: 20px auto !important;
+ text-align: center;
+}
+.SignUp_form_toggle{
+cursor: pointer;
+text-decoration: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 2px;
+}
+
+.SignUp_form_toggle:hover{
+  text-decoration: none;
+}
+
+
+/* Sale Slider */
+
+.sliderContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  height: fit-content;
+}
+
+.slider_card {
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* Airpod slider */
+
+.sliderAPContainer {
+  display: flex;
+  margin: 0 5%;
+  text-align: center;
+}
+
+
+
+.slider_AP_heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.swiper {
+  width: 100%;
+  height: fit-content;
+}
+
+.slider_Card {
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+/* About */
+.about_container {
+  margin-top: 50px;
+  height: 400px;
+  width: 600px;
+  background-color: whitesmoke;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* Banner */
+
+.Banner{
+
+  margin: 20px !important;
+}
+
+.case_card{
+  border-radius: 15px;
+}
+
+/* phonecases */
+
+.search_container{
+  height: 200px;
+  width: 600px;
+  border-radius: 15px;
+  background-color: white;
+ 
+  margin: 50px 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 725px){
+  .sliderAPContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}
