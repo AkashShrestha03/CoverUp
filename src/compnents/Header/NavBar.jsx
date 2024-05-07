@@ -41,27 +41,30 @@ const NavBar = () => {
               <ul className="navbar-nav justify-content-end pe-3 fw-bold">
                 <li className="nav-item">
                   <Link
-                    to={"/cases"}
+                    to={"/"}
                     className="nav-link text-light"
                     aria-current="page"
                   >
-                    PHONE CASES
+                    Home
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link to={"/collections"} className="nav-link text-light">
+                    Collections
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link text-light "
-                    aria-current="page"
-                    href="#"
-                  >
-                    ACCESSORIES
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <Link to={"/homestay"} className="nav-link text-light">
-                    COLLECTION
+                  <Link to={"/contact"} className="nav-link text-light">
+                    Contact Us
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link to={"/about"} className="nav-link text-light">
+                    About
+                  </Link>
+                </li>
+                
               </ul>
             </div>
           </div>

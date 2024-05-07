@@ -20,7 +20,7 @@ const ActionBar = () => {
 
         <div className="action_container">
           <FaShoppingBag />
-          <Link to={"/add-to-cart"} style={{ textDecoration: "none" }}>
+          <Link to={"/cart"} style={{ textDecoration: "none" }}>
             <span className="action_name text-light">Bag</span>
           </Link>
         </div>

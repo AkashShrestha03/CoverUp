@@ -1,11 +1,7 @@
-import { Collapse } from "antd";
+
 import { FaTags } from "react-icons/fa";
-import Accordian from "../compnents/accordian";
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
+
+
 
 
 
@@ -89,7 +85,7 @@ const ProductDetails = () => {
               </span>
             </span>
           </div>
-          <Accordian></Accordian>
+        
         </div>
       </div>
     </div>
